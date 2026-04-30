@@ -1,0 +1,8 @@
+# Temporary files
+~*.lck
+*#
+*.zip
+fp*cache
+*-backups
+.history/*
+.vs/
