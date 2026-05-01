@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "c06EQ09.kicad_pro",
+    "filename": "c06CTf48.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,7 +410,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "c06EQ09.wbk"
+      "workbook_filename": "c06CTf48.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -419,18 +419,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "c06EQ09.kicad_sch",
-        "name": "c06EQ09",
-        "uuid": "a30c08f9-0be2-4425-a2ef-9c1fa17925ca"
+        "filename": "c06CTf48.kicad_sch",
+        "name": "Root",
+        "uuid": "e2d6de9a-ea85-4161-8650-9ed851b46b7c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1,R1-2,RV1,RbulbA1,RbulbB1,Vt1",
     "variants": []
   },
   "sheets": [
     [
-      "a30c08f9-0be2-4425-a2ef-9c1fa17925ca",
-      "c06EQ09"
+      "e2d6de9a-ea85-4161-8650-9ed851b46b7c",
+      "Root"
     ]
   ],
   "text_variables": {},
