@@ -485,6 +485,12 @@
 		)
 	)
 	(junction
+		(at 177.8 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64e3a5bd-7796-4e82-8794-1a9af09d3e08")
+	)
+	(junction
 		(at 165.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -495,6 +501,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc60eb7c-d33b-4a2e-8c83-37bf1f40ddfc")
+	)
+	(junction
+		(at 177.8 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d838b6e6-e262-45d7-9f6f-37d83d5390fa")
 	)
 	(junction
 		(at 165.1 91.44)
@@ -564,6 +576,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfa379a-529d-4d3d-a2c1-cce2925362b7")
+	)
+	(wire
+		(pts
 			(xy 177.8 91.44) (xy 165.1 91.44)
 		)
 		(stroke
@@ -614,6 +636,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 68.58) (xy 179.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe21a7b-7fbf-4905-b035-769de3344767")
+	)
+	(wire
+		(pts
 			(xy 177.8 77.47) (xy 177.8 68.58)
 		)
 		(stroke
@@ -621,6 +653,26 @@
 			(type default)
 		)
 		(uuid "ea536fcf-7738-4dc5-a8e8-408eac6ce0cb")
+	)
+	(label "B"
+		(at 179.07 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5671e6ba-2b1c-475e-a16f-fc83255f88ac")
+	)
+	(label "A"
+		(at 179.07 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "751a9d67-6afb-4e9c-ae5a-7c9a1c52fcd0")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")

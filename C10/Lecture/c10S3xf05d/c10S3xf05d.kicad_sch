@@ -490,6 +490,42 @@
 		(color 0 0 0 0)
 		(uuid "b838c45b-38a0-4bcb-a5e8-00d129c8c515")
 	)
+	(junction
+		(at 175.26 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbafa55-8016-40eb-a484-ba7fbb157bfe")
+	)
+	(junction
+		(at 175.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7682196-5857-4ff9-817e-328b55c3a3d1")
+	)
+	(no_connect
+		(at 166.37 82.55)
+		(uuid "5a0b382e-2b28-408a-a79b-1d6af7e3e1b7")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022560d3-2dc6-4da9-ba72-9b0660fa29c6")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204302b4-64ef-4d1a-a61f-8f60f499939e")
+	)
 	(wire
 		(pts
 			(xy 175.26 87.63) (xy 175.26 93.98)
@@ -569,6 +605,26 @@
 			(type default)
 		)
 		(uuid "ef9ba49e-eb6a-4da6-8a22-746bd0a20499")
+	)
+	(label "B"
+		(at 176.53 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7ebf6a1-815a-4710-913d-9312f1fe990e")
+	)
+	(label "A"
+		(at 176.53 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cde03408-19e2-45fd-b1c7-9d8e8a64aa43")
 	)
 	(symbol
 		(lib_id "Device:R")

@@ -485,10 +485,32 @@
 		)
 	)
 	(junction
+		(at 175.26 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d51a57a-51e8-466e-94ed-7d03e1b888fc")
+	)
+	(junction
 		(at 137.16 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "295b7d14-a4f2-4f9b-9948-9218346835e7")
+	)
+	(junction
+		(at 175.26 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd156883-4a39-406c-abfb-476cfc7c497e")
+	)
+	(wire
+		(pts
+			(xy 175.26 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d063b8-ed27-46da-8fe4-7c9d9645c106")
 	)
 	(wire
 		(pts
@@ -509,6 +531,16 @@
 			(type default)
 		)
 		(uuid "4c44fd64-edb3-4b28-bce6-39cccdf2de79")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bd724d-51f5-4ee5-afb0-d7305b8d60e9")
 	)
 	(wire
 		(pts
@@ -569,6 +601,26 @@
 			(type default)
 		)
 		(uuid "f48456dd-7d52-4d90-840b-5f3af051e61a")
+	)
+	(label "A"
+		(at 176.53 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fc73e3f-4ed8-412e-9fd6-3b52da8055fa")
+	)
+	(label "B"
+		(at 176.53 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb59f138-9b93-4b72-9769-e715df6e91bf")
 	)
 	(symbol
 		(lib_id "power:GND")
