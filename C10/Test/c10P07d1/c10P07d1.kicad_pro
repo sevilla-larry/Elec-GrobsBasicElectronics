@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "c10P06c.kicad_pro",
+    "filename": "c10P07d1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,7 +410,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "c10P06c.wbk"
+      "workbook_filename": "c10P07d1.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -419,9 +419,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "c10P06c.kicad_sch",
+        "filename": "c10P07d1.kicad_sch",
         "name": "Root",
-        "uuid": "865088b4-fd64-4290-9cc5-bf34b6871934"
+        "uuid": "eca18358-2cc3-47f6-b2ef-5b5d39b629a9"
       }
     ],
     "used_designators": "Rl3,#PWR1,Rth11,Vth1",
@@ -429,7 +429,7 @@
   },
   "sheets": [
     [
-      "865088b4-fd64-4290-9cc5-bf34b6871934",
+      "eca18358-2cc3-47f6-b2ef-5b5d39b629a9",
       "Root"
     ]
   ],
