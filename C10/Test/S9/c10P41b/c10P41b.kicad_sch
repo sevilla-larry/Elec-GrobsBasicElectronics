@@ -829,7 +829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.0024975"
+		(property "Value" "1.25"
 			(at 176.53 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -911,7 +911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.995"
+		(property "Value" "2.5"
 			(at 138.43 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1071,7 +1071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10"
 			(at 176.53 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1153,7 +1153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.995"
+		(property "Value" "2.5"
 			(at 157.48 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
