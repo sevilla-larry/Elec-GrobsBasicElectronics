@@ -645,7 +645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "119.2"
+		(property "Value" "72"
 			(at 139.7 86.2301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -920,7 +920,7 @@
 				)
 			)
 		)
-		(property "Value" "691.92"
+		(property "Value" "1400"
 			(at 148.59 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
