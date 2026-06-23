@@ -5,7 +5,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 100n 240u 0",
+        ".tran 66u 66m 33m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,14 +22,14 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(0, 255, 0)",
-          "signal": "I(C1)",
-          "trace_type": 258
+          "color": "rgb(55, 126, 184)",
+          "signal": "I(L1)",
+          "trace_type": 2
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/VIN)",
-          "trace_type": 257
+          "signal": "V(Net-_L1-Pad1_)",
+          "trace_type": 1
         }
       ]
     }
