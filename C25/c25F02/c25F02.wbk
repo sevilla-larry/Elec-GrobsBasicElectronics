@@ -1,0 +1,87 @@
+{
+  "custom_cursors": 2,
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 100n 33u 0 100n uic",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Vc)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(/Vi)-V(/Vl)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 1000 600k 1.4Meg",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "I(C1) (gain)",
+          "trace_type": 522
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/Vc) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/Vl)-V(/Vc) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/Vi)/I(Rs1) (gain)",
+          "trace_type": 521
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [
+    "V(/Vi)-V(/Vl)",
+    "V(/Vl)-V(/Vc)",
+    "V(/Vc)/I(C1)",
+    "(V(/Vl)-V(/Vc))/I(L1)",
+    "(V(/Vi)-V(/Vl))/I(Rs1)",
+    "V(/Vi)/I(Rs1)"
+  ],
+  "version": 7
+}
