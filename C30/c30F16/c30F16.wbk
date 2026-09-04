@@ -32,6 +32,11 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/VACin)",
+          "trace_type": 1
+        },
+        {
           "color": "rgb(55, 126, 184)",
           "signal": "V(/VACout)",
           "trace_type": 257
