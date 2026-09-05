@@ -424,7 +424,7 @@
         "uuid": "befcd5bf-221c-4b2e-b080-01506069cce0"
       }
     ],
-    "used_designators": "Rl3,Rd1,#PWR4,Cin1,Rg2,Cout2,Q1,Vdd2,Vin1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

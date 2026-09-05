@@ -1098,12 +1098,6 @@
 		(uuid "481681ba-be76-41e8-96f1-b091273f6657")
 	)
 	(junction
-		(at 102.87 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70cd1286-83c4-4c3a-93fa-6e3be61b14af")
-	)
-	(junction
 		(at 176.53 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1133,6 +1127,12 @@
 		(color 0 0 0 0)
 		(uuid "d8d3102a-817a-495d-a36a-8d1c2f185d3e")
 	)
+	(junction
+		(at 166.37 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc5ba64-eb4a-4e99-bcc7-68934ed82a86")
+	)
 	(wire
 		(pts
 			(xy 176.53 85.09) (xy 176.53 88.9)
@@ -1152,16 +1152,6 @@
 			(type default)
 		)
 		(uuid "058256ed-e969-4d8e-a6c7-2f2979aa3d71")
-	)
-	(wire
-		(pts
-			(xy 85.09 113.03) (xy 102.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b3a73f-fefb-4a0a-a68a-3bcaff80a090")
 	)
 	(wire
 		(pts
@@ -1195,16 +1185,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 102.87 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7c344a-7fae-4df5-807c-98fcf02cfeff")
-	)
-	(wire
-		(pts
 			(xy 171.45 85.09) (xy 176.53 85.09)
 		)
 		(stroke
@@ -1235,6 +1215,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 92.71) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52014965-cc92-40bd-a9d5-1f97a98a1047")
+	)
+	(wire
+		(pts
 			(xy 195.58 85.09) (xy 189.23 85.09)
 		)
 		(stroke
@@ -1245,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 113.03) (xy 195.58 113.03)
+			(xy 149.86 113.03) (xy 166.37 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1265,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 113.03) (xy 125.73 113.03)
+			(xy 85.09 113.03) (xy 125.73 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1282,16 +1272,6 @@
 			(type default)
 		)
 		(uuid "6ed01114-bb49-412d-8371-470a62519ec1")
-	)
-	(wire
-		(pts
-			(xy 102.87 69.85) (xy 102.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74406e7b-bf2e-422f-b5be-fa70660cae4f")
 	)
 	(wire
 		(pts
@@ -1332,16 +1312,6 @@
 			(type default)
 		)
 		(uuid "91d5a8c4-167a-4c91-ac4f-7d9f410946aa")
-	)
-	(wire
-		(pts
-			(xy 166.37 77.47) (xy 166.37 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957628d5-9098-431b-a6c2-ab7684145239")
 	)
 	(wire
 		(pts
@@ -1432,6 +1402,16 @@
 			(type default)
 		)
 		(uuid "f6f968ab-7e1e-4b13-9b08-142adb3b60bf")
+	)
+	(wire
+		(pts
+			(xy 166.37 113.03) (xy 195.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1c1239-35e2-4b0d-9764-c5392af1fa43")
 	)
 	(label "VDDdc"
 		(at 199.39 58.42 0)
@@ -2047,7 +2027,8 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NJFET")
-		(at 166.37 82.55 270)
+		(at 166.37 87.63 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2055,10 +2036,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce79cfc2-98bf-4430-b33c-fe98021c3bd4")
 		(property "Reference" "Q1"
-			(at 166.37 88.9 90)
+			(at 166.37 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2068,7 +2048,7 @@
 			)
 		)
 		(property "Value" "NJFET"
-			(at 166.37 91.44 90)
+			(at 166.37 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2078,7 +2058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 87.63 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_JFETs"
-			(at 166.37 82.55 0)
+			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2100,7 +2080,7 @@
 			)
 		)
 		(property "Description" "N-JFET transistor, for simulation only"
-			(at 166.37 82.55 0)
+			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2111,7 +2091,7 @@
 			)
 		)
 		(property "Sim.Device" "NJFET"
-			(at 166.37 82.55 0)
+			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2102,7 @@
 			)
 		)
 		(property "Sim.Type" "SHICHMANHODGES"
-			(at 166.37 82.55 0)
+			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2133,7 +2113,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 166.37 82.55 0)
+			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2124,7 @@
 			)
 		)
 		(property "Sim.Params" "vt0=-4 beta=625u"
-			(at 166.37 82.55 0)
+			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
