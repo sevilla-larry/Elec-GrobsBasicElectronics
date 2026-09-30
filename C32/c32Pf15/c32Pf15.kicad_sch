@@ -2359,7 +2359,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=2.5 f=5Meg td=0 theta=0 phase=0 ac=2.5"
+		(property "Sim.Params" "dc=0 ampl=2.5 f=2.5Meg td=0 theta=0 phase=0 ac=2.5"
 			(at 74.93 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
