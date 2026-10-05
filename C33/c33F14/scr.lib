@@ -1,0 +1,10 @@
+* Simple SCR  pins: 1=A  2=G  3=K
+.subckt SCR 1 2 3
+Q1 3 4 1 PNP
+Q2 4 3 5 NPN
+Rgk 2 3 50
+Rg 4 2 1
+Rk 5 3 10m
+.model NPN NPN (BF=20 CJE=50p CJC=10p TF=0.1u)
+.model PNP PNP (BF=5  CJE=50p CJC=10p TF=0.1u)
+.ends

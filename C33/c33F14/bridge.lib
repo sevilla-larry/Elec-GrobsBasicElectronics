@@ -1,0 +1,8 @@
+.subckt D_BRIDGE 1 2 3 4
+* 1=+  2=-  3=AC  4=AC
+D1 3 1 DMOD
+D2 4 1 DMOD
+D3 2 3 DMOD
+D4 2 4 DMOD
+.model DMOD D (IS=1n RS=0.05 N=1.5 BV=400)
+.ends

@@ -1,0 +1,14 @@
+* 2N2646 UJT  pins: 1=E  2=B1  3=B2
+.subckt 2N2646 1 2 3 PARAMS: eta=0.6 rbb=6.1k rb1sat=38.15
+.param rb2={rbb*(1-eta)}
+.param gbb={1/(rbb*eta - rb1sat)}
+DE 1 4 EMITTER
+VE 4 5 DC 0
+HVE 6 0 VE 1k
+RVE 0 6 1Meg
+BBB 5 7 I={gbb}*V(5,7)+0.00575*V(5,7)*V(6)
+CBB 5 7 35p
+RB1 7 2 {rb1sat}
+RB2 3 5 {rb2}
+.model EMITTER D (IS=21.3p N=1.8)
+.ends
