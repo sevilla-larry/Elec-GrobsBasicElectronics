@@ -18,5 +18,12 @@
 # ReStarted: 2026/Apr/30
 #			 without Problems and Experiments Manual
 #			 with KiCad Simulator (vice MultiSim)
-#			 (MultiSim has no Dark Mode)
+#			 (MultiSim has no Dark Theme/Mode)
+#
+# Main book
+# Finished:	 2026/Oct/12
+#
+# to do, if still interested:
+#			 Problems Mannual
+#            Experiments Manual
 #
