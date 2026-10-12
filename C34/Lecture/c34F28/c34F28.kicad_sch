@@ -1271,6 +1271,12 @@
 		(uuid "0265ae0c-903f-4af3-b126-92139cab897e")
 	)
 	(junction
+		(at 186.69 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7270aa9b-b934-4a57-ba4b-8c659e128bac")
+	)
+	(junction
 		(at 110.49 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1470,6 +1476,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 73.66) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a014cd-7a18-49ab-bfff-0d7767d11bdd")
+	)
+	(wire
+		(pts
 			(xy 172.72 111.76) (xy 110.49 111.76)
 		)
 		(stroke
@@ -1497,6 +1513,16 @@
 			(type default)
 		)
 		(uuid "8a68aab8-7ca3-40d4-bd35-2d01dc52e565")
+	)
+	(wire
+		(pts
+			(xy 186.69 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ffac3c-4c8a-41f0-b2a6-cbd333848849")
 	)
 	(wire
 		(pts
@@ -1620,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 190.5 83.82)
+			(xy 182.88 83.82) (xy 186.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1674,7 @@
 		)
 		(uuid "60ce36af-123a-4f6b-8d7c-154a4917d033")
 	)
-	(label "Vout"
+	(label "Vout2"
 		(at 223.52 83.82 0)
 		(effects
 			(font
@@ -1677,6 +1703,16 @@
 			(justify right bottom)
 		)
 		(uuid "a5279397-168b-4e23-914b-b501415a0d26")
+	)
+	(label "Vout1"
+		(at 186.69 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f13a1b3c-412a-4d61-a6b8-08d778bacfdf")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:OPAMP")

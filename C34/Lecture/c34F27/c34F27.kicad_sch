@@ -1116,6 +1116,12 @@
 		(uuid "157ae281-1e90-4907-beb9-846bf8d687e0")
 	)
 	(junction
+		(at 186.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19cafa7c-2655-4e86-82d8-b0d9456795f9")
+	)
+	(junction
 		(at 172.72 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1253,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 82.55) (xy 190.5 82.55)
+			(xy 182.88 82.55) (xy 186.69 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1270,6 +1276,16 @@
 			(type default)
 		)
 		(uuid "5578e87f-ddfa-4534-98eb-1745aae2fb7d")
+	)
+	(wire
+		(pts
+			(xy 186.69 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5780a3f1-bcb7-4587-a5b8-4b8d6ec6bfb1")
 	)
 	(wire
 		(pts
@@ -1310,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "76dabdb2-c905-4017-a367-d3852c493b37")
+	)
+	(wire
+		(pts
+			(xy 186.69 72.39) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85835a1b-ad1e-40fa-89f8-885e6ea8f99a")
 	)
 	(wire
 		(pts
@@ -1431,7 +1457,7 @@
 		)
 		(uuid "1a5e62cd-2256-47d4-86d0-bc25bbf35364")
 	)
-	(label "Vout"
+	(label "Vout2"
 		(at 215.9 82.55 0)
 		(effects
 			(font
@@ -1440,6 +1466,16 @@
 			(justify left bottom)
 		)
 		(uuid "39f25630-b296-4139-b20d-5d0ecd4c1550")
+	)
+	(label "Vout1"
+		(at 186.69 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "892900df-c5b9-4a91-a463-53479ccf9e01")
 	)
 	(label "VDCinP"
 		(at 176.53 60.96 0)
